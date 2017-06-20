@@ -1,0 +1,25 @@
+{
+  "name": "ryver",
+  "version": "1.0.0",
+  "description": "ryver",
+  "main": "index.js",
+  "author": "WeLaika <http://dev.welaika.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.ryver.com/",
+    "serviceName": "Ryver",
+    "message": "The Best in Free Team Communications",
+    "popup": [
+      "^https:\/\/hello.freeconference.com\/conf\/call\/([^~])*"
+    ],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": true,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
